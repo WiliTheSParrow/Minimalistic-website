@@ -73,7 +73,7 @@ h2 {
 }
 
 /* #home-image img {
-    width: 
+    width: 50% 
 }*/
 
 footer {
@@ -93,4 +93,15 @@ footer a{
 .separator{
     color: #FFFFFF;
     font-size: 11px;
+}
+
+
+/********************* About Page Styles ************/
+
+/*#about-page #home-image img {
+    width: %
+}*/
+
+#about-page #profile-info{
+    margin: 5px;
 }
