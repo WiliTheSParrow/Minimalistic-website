@@ -3,21 +3,28 @@ body {
     margin: 0;
 }
 
-.link-title{
+.link-title {
     text-decoration: none;
     font-size: 24px;
     color: #444444;
 }
 
+.page-heading {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
 .container {
 
-    width: 780px margin: 0 auto;
+    width: 780px;
+    margin: 0 auto;
     background: #fbf7f7;
+    box-shadow: 0px 9px 13px 5px;
 }
 
 .header {
     padding: 45px 0 20px 40px;
-    border: 2px solid black;
+    
 }
 
 .menu {
@@ -65,10 +72,10 @@ h2 {
     font-size: 13px;
     line-height: 18px;
     text-emphasis: justify;
-    
+
 }
 
-.main a:hover{
+.main a:hover {
     color: #444444;
 }
 
@@ -85,12 +92,12 @@ footer {
     text-decoration: right;
 }
 
-footer a{
+footer a {
     text-decoration: none;
     color: #262626;
 }
 
-.separator{
+.separator {
     color: #FFFFFF;
     font-size: 11px;
 }
@@ -102,6 +109,35 @@ footer a{
     width: %
 }*/
 
-#about-page #profile-info{
+#about-page #profile-info {
     margin: 5px;
+}
+
+/**************** Contact Page *************/
+
+#contact #form {
+    width: 500px;
+    
+    padding: 10px 10px 10px 10px;
+    margin: 0 auto;
+    box-shadow: 0px 9px 13px 5px;
+    border-radius: 5px;
+}
+
+#contact #form input {
+    width: 100%;
+    border-radius: 5px;
+    height: 20px;
+    background: #D6D6D6;
+}
+
+#contact #form #message {
+    width: 100%;
+    border-radius: 5px;
+    background: #D6D6D6;
+}
+
+#contact #form #submit {
+    height: 30px;
+    background: rgb(59, 118, 135);
 }
